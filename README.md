@@ -22,4 +22,5 @@ Cada VM é uma máquina completa que executa todos os componentes, incluindo seu
 * **scherduler:** Responsavel verificar onde e melhor colocar cada container ele e resposavel verificar melhor qual hardware com melhor recurso. Pra onde vai seu container. 
 * **apiserver** Unica aplicação responsavel de conversar com etcd somente ele conversa com etcd
 ### Wokers (Orquestrador do piano) 
+![kubernates](https://github.com/Jilosofo/kubernates/assets/126982541/635648aa-60bd-4159-95dd-3ff1834180f2)
 
