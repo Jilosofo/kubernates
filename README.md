@@ -17,4 +17,6 @@ Cada VM é uma máquina completa que executa todos os componentes, incluindo seu
 *******
 ## Control kuerbenates:
 * **etcd:** Importante efetuar sempre backup onde salva todas informações do cluster
+* **Controler manager:**
+* **scherduler:**
 
