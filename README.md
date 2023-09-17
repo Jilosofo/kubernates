@@ -15,9 +15,11 @@ Cada VM é uma máquina completa que executa todos os componentes, incluindo seu
 *******
 `Era da implantação em contêineres:` Contêineres são semelhantes às VMs, mas têm propriedades de isolamento flexibilizados para compartilhar o sistema operacional (SO) entre as aplicações. Portanto, os contêineres são considerados leves. Semelhante a uma VM, um contêiner tem seu próprio sistema de arquivos, compartilhamento de CPU, memória, espaço de processo e muito mais. Como eles estão separados da infraestrutura subjacente, eles são portáveis entre nuvens e distribuições de sistema operacional.
 *******
-## Control kuerbenates:
-* **etcd:** Importante efetuar sempre backup onde salva todas informações do cluster
+## Closter kuerbenates
+### Control Plane:
+* **etcd:** Guarda tudo em relação ao cluster tudo que informação sensivel do cluster Importante efetuar sempre backup onde salva todas informações do cluster (pensar em uma estrategia de redundacia.)
 * **Controler manager:** Gerente do controler, ele tem acesso ao etcd ex:(ele verifica se aplicação realmente está rodando de acordo qualquer coisa ele reclama pro etcd) 
-* **scherduler:**
-* **apiserver** Aplicação responsavel de conversar com etcd somente ele conversa com etcd
+* **scherduler:** Responsavel verificar onde e melhor colocar cada container ele e resposavel verificar melhor qual hardware com melhor recurso. Pra onde vai seu container. 
+* **apiserver** Unica aplicação responsavel de conversar com etcd somente ele conversa com etcd
+### Wokers (Orquestrador do piano) 
 
