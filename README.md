@@ -19,4 +19,5 @@ Cada VM é uma máquina completa que executa todos os componentes, incluindo seu
 * **etcd:** Importante efetuar sempre backup onde salva todas informações do cluster
 * **Controler manager:** Gerente do controler, ele tem acesso ao etcd ex:(ele verifica se aplicação realmente está rodando de acordo qualquer coisa ele reclama pro etcd) 
 * **scherduler:**
+* **apiserver** Aplicação responsavel de conversar com etcd somente ele conversa com etcd
 
