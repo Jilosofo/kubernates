@@ -16,5 +16,5 @@ Cada VM é uma máquina completa que executa todos os componentes, incluindo seu
 `Era da implantação em contêineres:` Contêineres são semelhantes às VMs, mas têm propriedades de isolamento flexibilizados para compartilhar o sistema operacional (SO) entre as aplicações. Portanto, os contêineres são considerados leves. Semelhante a uma VM, um contêiner tem seu próprio sistema de arquivos, compartilhamento de CPU, memória, espaço de processo e muito mais. Como eles estão separados da infraestrutura subjacente, eles são portáveis entre nuvens e distribuições de sistema operacional.
 *******
 ## Control kuerbenates:
-* **etcd** Importante efetuar sempre backup onde salva todas informações do cluster
+* **etcd:** Importante efetuar sempre backup onde salva todas informações do cluster
 
